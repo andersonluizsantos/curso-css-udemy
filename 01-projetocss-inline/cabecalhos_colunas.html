@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Classes e IDs</title>
+    <style type="text/css">
+        #principal {
+            border: green solid; /*Borda da div mais externa*/
+            width: 100%; /*Definindo a largura de 100% da página*/
+        }
+
+        #cabecalho {
+            width: 95%; /*Ficar um pouco menor que a borda principal */
+            height: 150px; 
+            line-height: 150px;
+            border: red solid;
+            margin: 1rem;
+            text-align: center;
+            margin: 1rem auto; /* Alinhamento da div no centro*/
+        }
+
+        .conteudo {
+            width: 95%;
+            margin: 1rem auto; /*Alinhamento das três divs das colunas no centro*/
+        }
+
+        .coluna {
+            border: blue solid;
+            width: 32%;
+            text-align: center; /*Alinhamento horizontal do texto */
+            display: inline-block; /*Colocando as divs uma do lado da outra */
+            height: 700px;
+            line-height: 700px; /*Alinhamento vertical dentro da div*/
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <div id="cabecalho">
+            Header
+        </div>
+
+        <div class="conteudo">
+            <div class="coluna">
+                Coluna 1
+            </div>
+
+            <div class="coluna">
+                Coluna 2
+            </div>
+
+            <div class="coluna">
+                Coluna 3
+            </div>
+        </div>
+    </div>
+</body>
+</html>
