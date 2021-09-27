@@ -1,0 +1,104 @@
+#conteudo1 {
+    margin: 30px;
+    font-size: 30px;
+    padding: 10px;
+    border: 5px solid red;
+    background-color: orange;
+    color: red;
+}
+
+#conteudo2 {
+    margin: 30px;
+    font-size: 30px;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: green;
+    color: blue;
+}
+
+#conteudo3 {
+    margin: 30px;
+    font-size: 30px;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: pink;
+    color: purple;
+    width: 70%;
+    height: 70px;
+}
+
+#conteudo4 {
+    margin: 30px;
+    font-size: 30px;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: salmon;
+    color: black;
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    /*Alinhar div no centro*/
+}
+
+#conteudo5 {
+    margin: 30px;
+    font-size: 30px;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: chartreuse;
+    color: black;
+    width: 600px;
+    height: 100px;
+    /* Centralziar conteúdo da div no centro */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#conteudo6 {
+    margin: 30px;
+    font-size: 30px;
+    border: 5px solid black;
+    padding: 30px 20px 10px 3px; /*Sentindo horário -> top, rigth, botton, left*/
+    background-color: cyan;
+    color: black;
+    width: 150px;    
+}
+
+#conteudo7 {
+    margin: 30px;
+    font-size: 30px;
+    border: 5px solid black;
+    padding: 30px 10px; /*30px top e botton e 10px direita e esquerda*/
+    background-color: yellow;
+    color: black;
+    width: 150px;    
+}
+
+/*Quando usamos Margem top e botton em uma caixa, ele não vai somar os dois,
+mas sim sobrepor pegando a maior. O nome desse processo é magin colapse
+*/
+
+#conteudo8 {
+    margin: 30px;
+    font-size: 30px;
+    border: 5px solid black;
+    margin: 80px; 
+    padding: 30px;
+    background-color: blue;
+    color: black;
+    width: 150px;    
+}
+
+#conteudo9 {
+    margin: 30px;
+    font-size: 30px;
+    border: 5px solid black;
+    margin: 150px;
+    padding: 30px; 
+    background-color: violet;
+    color: black;
+    width: 150px;    
+}
+
