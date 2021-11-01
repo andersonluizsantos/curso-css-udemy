@@ -1,0 +1,124 @@
+body {
+    background-color: #d8d8d8;
+    margin: 0px;
+}
+
+h5 {
+    margin: 1px;
+    font-size: 6px;
+}
+
+h2 {
+    color: #ffa503;
+    margin: 1px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+img {
+    margin: 5px 0px;
+}
+
+.principal {
+    text-align: center;
+}
+
+/* Definindo a div Menu*/
+#menu {
+    width: 100%;
+    background-color: #ffa503;
+    height: 50px;
+    display: inline-block;
+}
+
+.menu-titulo {
+    margin: 5px 0px;
+    font-family: fantasy;    
+}
+
+#menu .menu-opcoes {
+    font-size: 10px;
+}
+
+#menu a {
+    padding: 3px 3px;
+    text-decoration: none;    
+}
+
+#menu a:link, a:visited {
+    color: white;
+}
+
+#menu a:hover, a:active {
+    color: #ffa503;
+    background-color: white;
+}
+
+/* Fim da Div Menu*/
+
+/* Definindo a div de Conteudo*/
+.conteudo {
+    display: inline;
+}
+
+.postagem-principal {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    text-align: left;
+    margin: 5px 10px 5px 60px;
+    padding: 5px;
+    font-size: 5px;
+    float: left;
+}
+
+.postagem {
+    width: 150px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    color: #ffa503;
+    float: left;
+}
+
+.postagem .titulo {
+    font-size: 10px;
+    background-color: #bfbfbf;
+    color: #808080;
+    padding: 3px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.postagem .subtitulo {
+    font-size: 5px;
+    color: black;
+    padding: 3px 0px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.postagem .link {
+    text-align: left;
+    margin: 5px 0px;        
+    font-size: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#postagem .link a a:link, a:visited {
+    color: #ffa503;
+}
+
+.postagem .link2 {
+    text-align: left;
+    font-size: 7px;
+    margin: 5px 0px;        
+}
+
+#postagem .link2 a a:link, a:visited {
+    color: #ffa503;
+}

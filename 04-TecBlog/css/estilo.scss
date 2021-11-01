@@ -1,0 +1,75 @@
+body {
+    background-color: #d8d8d8;
+    margin: 0px;
+}
+
+.principal {
+    text-align: center;
+}
+
+/* Definindo a div Menu*/
+#menu {
+    width: 100%;
+    background-color: #ffa503;
+    height: 50px;
+    display: inline-block;
+}
+
+.menu-titulo {
+    margin: 5px 0px;
+}
+
+#menu .menu-opcoes {
+    font-size: 10px;
+}
+
+#menu a {
+    padding: 3px 3px;
+    text-decoration: none;    
+}
+
+#menu a:link, a:visited {
+    color: white;
+}
+
+#menu a:hover, a:active {
+    color: #ffa503;
+    background-color: white;
+}
+
+/* Definindo a div Menu*/
+
+.conteudo {
+    display: inline;
+}
+
+.postagem-principal {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    text-align: left;
+    margin: 5px 10px 5px 60px;
+    padding: 5px;
+    font-size: 5px;
+    float: left;
+}
+
+h6 {
+    margin: 1px;
+}
+
+h3 {
+    color: #ffa503;
+    margin: 1px;
+    font-size: 10px;
+}
+
+.postagem {
+    width: 150px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    color: #ffa503;
+    float: left;
+}
