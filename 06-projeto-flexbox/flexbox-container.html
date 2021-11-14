@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Flexbox - Flexible Box Layout</title>
+    <style type="text/css">
+        #conteudo {
+            background-color: #dcdcdc;
+            height: 500px;
+            display: flex;
+            
+            /* 1. Atributos do flex-direction
+                row | row-reverse | column | column-reverse
+            */
+            flex-direction: row;
+            
+            /* 2. Atributos do flex-wrap - WRAP = "QUEBRAR LINHA"
+                nowrap | wrap | wrap-reverse
+            */
+            flex-wrap: nowrap;
+            
+            /* 3. Atributos do justify-content = "Conteudo Justificado"
+                flex-start | flex-end | center | 
+                space-between | space-around
+            */
+            justify-content: flex-start;
+
+            /* 4. Atributos do align-items = "Alinhamento dos itens"
+                stretch | center | flex-start | flex-end | baseline
+            */
+            align-items: baseline;
+
+        }
+
+        .item {
+            background-color: white;
+            border: 1px solid gray;    
+            height: 100px;
+            width: 100px;
+            margin: 10px;        
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Flexbox</h1>
+    <!-- Container -->
+    <div id="conteudo"> 
+        <!-- Itens do container (Flex-Itens) -->
+        <div class='item'>01</div>
+        <div class='item'>02</div>
+        <div class='item'>03</div>
+        <div class='item'>04</div>
+    </div>
+</body>
+</html>
